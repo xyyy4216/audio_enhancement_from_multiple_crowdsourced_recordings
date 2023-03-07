@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shiran Aziz</title>
+</head>
+<body>
+    <pre>
+        The audio tracks from the synced video clips are fed into our algorithm, that produces an enhanced audio (1st column).
+        All Youtube clips are with different YoutubeID.
+    </pre>
+
+<h3> Example &#8544;</h3>
+Real world data, Harry Styles concert.
+
+<br> </br>
+<table>
+    <thead>
+    <tr>
+        <th align="middle">our crowdsourced enhancement result</th>
+        <th align="middle">video (1)</th>
+        <th align="middle">video (2)</th>
+        <th align="middle">video (3)</th>
+        <th align="middle">video (4)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+<!--         <td align="middle">Audio</td> -->
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/example1/Ours.mp3" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example1/KptvIBhsVzw.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example1/9GK8cJIj8pQ.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example1/5MlPzqWPSg.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example1/TarlWTr9aBg.mp4" type="video/mp4">
+            </video>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="data/example1/ours.png" width="250px" class="center"></td>
+        <td><img src="data/example1/KptvIBhsVzw.png" width="250px" class="center"></td>
+        <td><img src="data/example1/9GK8cJIj8pQ.PNG" width="250px" class="center"></td>
+        <td><img src="data/example1/5MlPzqWPSg.png" width="250px" class="center"></td>
+        <td><img src="data/example1/TarlWTr9aBg.png" width="250px" class="center"></td>
+    </tr>
+    
+<!--     <td align="middle">Audio</td> -->
+
+    </tbody>
+</table>
+    
+Note the clear scream pattern in the spectrogram of video (2) at 1.5 seconds, that is not present in the enhanced result.
+
+<br> </br>
+
+<h3> Example &#8545;</h3>
+Real world data, Coldplay concert.
+
+<br> </br>
+<table>
+    <thead>
+    <tr>
+        <th align="middle">our crowdsourced enhancement result</th>
+        <th align="middle">video (1)</th>
+        <th align="middle">video (2)</th>
+        <th align="middle">video (3)</th>
+        <th align="middle">video (4)</th>
+<!--         <th align="middle">video (5)</th> -->
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+<!--         <td align="middle">Audio</td> -->
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/example3/Ours.mp3" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example3/6Wb6fIFZfAY.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example3/7E2eJyhZ9kU.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example3/GdUXNEJW9uQ.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example3/gz0MaJ6vWhw.mp4" type="video/mp4">
+            </video>
+<!--         </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example3/JtDrCT3UvNk.mp4" type="video/mp4">
+            </video>
+        </td> -->
+    </tr>
+    <tr>
+        <td><img src="data/example3/ours.png" width="250px" class="center"></td>
+        <td><img src="data/example3/6Wb6fIFZfAY.png" width="250px" class="center"></td>
+        <td><img src="data/example3/7E2eJyhZ9kU.png" width="250px" class="center"></td>
+        <td><img src="data/example3/GdUXNEJW9uQ.png" width="250px" class="center"></td>
+        <td><img src="data/example3/gz0MaJ6vWhw.png" width="250px" class="center"></td>
+    </tr>
+
+    </tbody>
+</table>
+
+In the enhanced audio the applause heared in videos (1) and (2) are significantly reduced, and the scream from video (4) is absent.
+
+<br> </br>
+
+<h3> Example &#8546;</h3>
+Real world data, Harry Styles concert (2).
+
+<br> </br>
+<table>
+    <thead>
+    <tr>
+        <th align="middle">our crowdsourced enhancement result</th>
+        <th align="middle">video (1)</th>
+        <th align="middle">video (2)</th>
+        <th align="middle">video (3)</th>
+        <th align="middle">video (4)</th>
+        <th align="middle">video (5)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/example5/Ours.mp3" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/gNsd3Yt8Oc.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/ZdPeUigZ33U.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/b-wJI7x8VEs.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/gka38ZmfnE8.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/i4cCcKOC1tg.mp4" type="video/mp4">
+            </video>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+<table>
+    <thead>
+    <tr>
+        <th align="middle">video (6)</th>
+        <th align="middle">video (7)</th>
+        <th align="middle">video (8)</th>
+        <th align="middle">video (9)</th>
+        <th align="middle">video (10)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/IGOIUivTDpA.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/PBK0KhePfLQ.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/TWj5t8RYW3s.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/WQjS1nYL7e4.mp4" type="video/mp4">
+            </video>
+        </td>
+        <td>
+            <video controls style="width: 250px; height: 250px">
+                <source src="data/example5/05kuHURmmxA.mp4" type="video/mp4">
+            </video>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+
+<br> </br>
+
+<h3> Example &#8547;</h3>
+Synthetic data, speech + noises (both sampled from LibriSpeech), SNR=-3dB.
+
+<br> </br>
+<table>
+    <thead>
+    <tr>
+        <th align="middle">our crowdsourced enhancement result</th>
+        <th align="middle">signal + noise (1)</th>
+        <th align="middle">signal + noise (2)</th>
+        <th align="middle">signal + noise (3)</th>
+        <th align="middle">signal + noise (4)</th>
+        <th align="middle">signal + noise (5)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+<!--         <td align="middle">Audio</td> -->
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_minus_3/ours.mp3" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_minus_3/signal_and_0.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_minus_3/signal_and_1.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_minus_3/signal_and_2.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_minus_3/signal_and_3.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_minus_3/signal_and_4.wav" type="audio/wav">
+            </audio>
+        </td>
+    </tr>
+        
+    <tr>
+        <td><img src="data/synthetic/snr_minus_3/ours.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_minus_3/signal_and_0.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_minus_3/signal_and_1.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_minus_3/signal_and_2.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_minus_3/signal_and_3.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_minus_3/signal_and_4.png" width="250px" class="center"></td>
+    </tr>
+
+    </tbody>
+</table>
+
+<br> </br>
+    
+<h3> Example &#8548;</h3>
+Synthetic data, speech (from LibriSpeech) + noises sampled from Audioset, SNR=3dB.
+
+<br> </br>
+<table>
+    <thead>
+    <tr>
+        <th align="middle">our crowdsourced enhancement result</th>
+        <th align="middle">signal + noise (1)</th>
+        <th align="middle">signal + noise (2)</th>
+        <th align="middle">signal + noise (3)</th>
+        <th align="middle">signal + noise (4)</th>
+        <th align="middle">signal + noise (5)</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+<!--         <td align="middle">Audio</td> -->
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_3/ours.mp3" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_3/signal_and_1fcHBxy7gZ0.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_3/signal_and_Fmpd4hN3CaM.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_3/signal_and_HGu9h3E8rK0.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_3/signal_and_door_Freesound_validated_250024_0.wav" type="audio/wav">
+            </audio>
+        </td>
+        <td>
+            <audio controls style="width: 250px; height: 50px">
+                <source src="data/synthetic/snr_3/signal_and_pxJglkptIEo.wav" type="audio/wav">
+            </audio>
+        </td>
+    </tr>
+        
+    <tr>
+        <td><img src="data/synthetic/snr_3/ours.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_3/signal_and_1fcHBxy7gZ0.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_3/signal_and_Fmpd4hN3CaM.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_3/signal_and_HGu9h3E8rK0.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_3/signal_and_door_Freesound_validated_250024_0.png" width="250px" class="center"></td>
+        <td><img src="data/synthetic/snr_3/signal_and_pxJglkptIEo.png" width="250px" class="center"></td>
+    </tr>
+
+    </tbody>
+</table>
+
+<br> </br>
+
+</body>
+</html>
